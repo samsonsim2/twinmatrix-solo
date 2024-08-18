@@ -265,7 +265,7 @@ export default function Home() {
 
   return (
     <main className="h-screen w-screen relative overflow-x-hidden bg-stone-100 ">
-      <section className="  absolute top-0 z-30 w-full flex justify-between pt-2 px-5 bg-gradient-to-b from-white to-transparent ">
+      {/* <section className="  absolute top-0 z-30 w-full flex justify-between pt-2 px-5 bg-gradient-to-b from-white to-transparent ">
         <div>
           <h2 className="font-bold">TMT</h2>
         </div>
@@ -277,7 +277,7 @@ export default function Home() {
         <div className="bg-black p-2 rounded-md text-xs  ">
           <h2 className="text-white">Book a demo</h2>
         </div>
-      </section>
+      </section> */}
 
       <div className="absolute z-30 bottom-0   w-full flex flex-col   ">
         <div className="flex flex-row px-8 gap-4">
@@ -313,7 +313,7 @@ export default function Home() {
         </Canvas>
 
         <SectionList />
-        <ContactForm />
+        {/* <ContactForm />
 
         <footer className="bg-black text-white py-6 h-fit z-30 w-screen">
           <div className="container mx-auto px-8">
@@ -329,7 +329,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </footer>
+        </footer> */}
       </div>
     </main>
   );
