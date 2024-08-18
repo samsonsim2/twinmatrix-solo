@@ -312,7 +312,7 @@ export default function Home() {
           </mesh>
         </Canvas>
 
-        <SectionList />
+        {/* <SectionList /> */}
         {/* <ContactForm />
 
         <footer className="bg-black text-white py-6 h-fit z-30 w-screen">
